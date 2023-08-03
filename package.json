@@ -1,0 +1,26 @@
+{
+  "name": "kwilx-cli",
+  "version": "0.0.2",
+  "description": "Kwil Database Terminal Client and Database Import Tool",
+  "main": "index.js",
+  "bin": {
+    "kwilx-cli": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "kwilx",
+    "sql"
+  ],
+  "license": "ISC",
+  "repository": "https://github.com/xendarboh/kwilx-cli",
+  "homepage": "https://github.com/xendarboh/kwilx-cli#readme",
+  "dependencies": {
+    "cli-progress": "^3.11.1",
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.4",
+    "inquirer-command-prompt": "^0.1.0",
+    "inquirer-search-list": "^1.2.6",
+    "kwilx": "^1.2.28",
+    "n-readlines": "^1.0.1"
+  }
+}
